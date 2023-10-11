@@ -1,0 +1,27 @@
+### obtener todas las notas
+Get http://localhost:3001/api/notes 
+
+###elimina un elemento
+DELETE http://localhost:3001/api/notes/651988d4e2e0aa92ade986b7
+
+### obtener una nota
+Get http://localhost:3001/api/notes/1
+
+### agrega una nota
+POST http://localhost:3001/api/notes  
+content-type: application/json 
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Impvc2UyIiwiaWQiOiI2NTI0NjQ1Yjk2NGEwNDQxZTJkOTI4NmQiLCJpYXQiOjE2OTY4ODQwNTgsImV4cCI6MTY5NzQ4ODg1OH0.F84B5PTN-wH7CPdVYmoZLdhRKBIqjIMFuOvgY774Th0
+
+{
+  "content": "nuevo registro 2",
+  "important":true,
+}
+
+### modificar una nota
+PUT http://localhost:3001/api/notes/651985c25bfaeae409dddb01  
+content-type: application/json; charset=utf-8
+
+{
+  "content": "noka la caza polillas",
+  "important":true
+}

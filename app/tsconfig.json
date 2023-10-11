@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    // Opciones de compilación
+  },
+  "include": [
+    "./src"
+  ],
+  "exclude": []
+}

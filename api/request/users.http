@@ -1,0 +1,13 @@
+### agrega un user
+POST http://localhost:3001/api/users
+content-type: application/json
+
+{
+  "username": "jose2",
+  "name":"jose2",
+  "password":"jose123"
+}
+
+### obtener usuarios
+GET http://localhost:3001/api/users
+content-type: application/json
